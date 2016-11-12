@@ -169,7 +169,7 @@ class Champion{
         
         let chmpKey = self._key!
         
-        let url = "https://global.api.pvp.net/api/lol/static-data/na/v1.2/champion/\(chmpKey)?champData=all&api_key=RGAPI-9b181de0-d985-4523-a474-443d4a345cb1"
+        let url = "https://global.api.pvp.net/api/lol/static-data/na/v1.2/champion/\(chmpKey)?champData=all&api_key=YOUR_API_KEY_HERE"
         
         Alamofire.request(url).responseJSON { (response) in
             if let json = response.result.value as? Dictionary<String, AnyObject>{
