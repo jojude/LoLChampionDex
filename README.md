@@ -1,5 +1,5 @@
 # LoLChampionDex
-Cool League of Legends Champion App
+Cool League of Legends Champion App using RiotApi
 
 Displays all currently available champions
 
