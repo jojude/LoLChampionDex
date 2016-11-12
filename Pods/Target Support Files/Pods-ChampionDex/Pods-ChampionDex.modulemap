@@ -1,0 +1,6 @@
+framework module Pods_ChampionDex {
+  umbrella header "Pods-ChampionDex-umbrella.h"
+
+  export *
+  module * { export * }
+}
